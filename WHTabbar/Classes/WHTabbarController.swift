@@ -109,7 +109,7 @@ open class WHTabbarController: UITabBarController {
         
         self.view.addSubview(blockView)
         self.view.addSubview(centreButtonContainer)
-        self.view.bringSubview(toFront: centreButtonContainer)
+        self.view.bringSubviewToFront(centreButtonContainer)
         
         centreButtonContainer.addSubview(centerButtonImageView)
         
